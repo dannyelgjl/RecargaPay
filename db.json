@@ -1,0 +1,387 @@
+{
+  "balance": {
+    "balance": 12543.87
+  },
+  "transactions-history": [
+    {
+      "id": "txn-001",
+      "title": "Recarga Claro",
+      "description": "Recarga de celular",
+      "amount": -30,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-15T14:30:00Z"
+    },
+    {
+      "id": "txn-002",
+      "title": "Pix recebido",
+      "description": "Joao Silva",
+      "amount": 150,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-14T09:15:00Z"
+    },
+    {
+      "id": "txn-003",
+      "title": "Pagamento de conta",
+      "description": "Conta de luz",
+      "amount": -189.5,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-13T11:00:00Z"
+    },
+    {
+      "id": "txn-004",
+      "title": "Cashback RecargaPay",
+      "description": "Campanha janeiro",
+      "amount": 12.75,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-12T18:40:00Z"
+    },
+    {
+      "id": "txn-005",
+      "title": "Assinatura streaming",
+      "description": "Plano mensal",
+      "amount": -27.9,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-12T08:10:00Z"
+    },
+    {
+      "id": "txn-006",
+      "title": "Transferencia enviada",
+      "description": "Maria Souza",
+      "amount": -320,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-11T15:25:00Z"
+    },
+    {
+      "id": "txn-007",
+      "title": "Pix recebido",
+      "description": "Carlos Pereira",
+      "amount": 980,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-10T10:45:00Z"
+    },
+    {
+      "id": "txn-008",
+      "title": "Compra no mercado",
+      "description": "Supermercado Central",
+      "amount": -248.32,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-09T19:20:00Z"
+    },
+    {
+      "id": "txn-009",
+      "title": "Estorno de compra",
+      "description": "Marketplace",
+      "amount": 89.9,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-09T08:35:00Z"
+    },
+    {
+      "id": "txn-010",
+      "title": "Pagamento boleto",
+      "description": "Internet residencial",
+      "amount": -119.99,
+      "type": "debit",
+      "status": "pending",
+      "createdAt": "2025-01-08T13:12:00Z"
+    },
+    {
+      "id": "txn-011",
+      "title": "Compra farmacia",
+      "description": "Farmacia Popular",
+      "amount": -64.4,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-07T21:05:00Z"
+    },
+    {
+      "id": "txn-012",
+      "title": "Salario",
+      "description": "Empresa Exemplo",
+      "amount": 4200,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-07T07:00:00Z"
+    },
+    {
+      "id": "txn-013",
+      "title": "Transferencia enviada",
+      "description": "Lucas Costa",
+      "amount": -75,
+      "type": "debit",
+      "status": "failed",
+      "createdAt": "2025-01-06T16:55:00Z"
+    },
+    {
+      "id": "txn-014",
+      "title": "Recarga transporte",
+      "description": "Bilhete urbano",
+      "amount": -22,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-05T09:50:00Z"
+    },
+    {
+      "id": "txn-015",
+      "title": "Pix recebido",
+      "description": "Ana Lima",
+      "amount": 45.5,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-04T17:18:00Z"
+    },
+    {
+      "id": "txn-016",
+      "title": "Restaurante",
+      "description": "Almoco executivo",
+      "amount": -58.7,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-04T12:32:00Z"
+    },
+    {
+      "id": "txn-017",
+      "title": "Pagamento academia",
+      "description": "Mensalidade",
+      "amount": -99.9,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-03T06:45:00Z"
+    },
+    {
+      "id": "txn-018",
+      "title": "Rendimento diario",
+      "description": "Saldo remunerado",
+      "amount": 3.12,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-02T23:10:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn-001",
+      "title": "Recarga Claro",
+      "description": "Recarga de celular",
+      "amount": -30,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-15T14:30:00Z",
+      "reference": "REC-001",
+      "category": "Phone Top Up",
+      "recipient": "Claro"
+    },
+    {
+      "id": "txn-002",
+      "title": "Pix recebido",
+      "description": "Joao Silva",
+      "amount": 150,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-14T09:15:00Z",
+      "reference": "PIX-002",
+      "category": "Transfer",
+      "recipient": "Joao Silva"
+    },
+    {
+      "id": "txn-003",
+      "title": "Pagamento de conta",
+      "description": "Conta de luz",
+      "amount": -189.5,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-13T11:00:00Z",
+      "reference": "BILL-003",
+      "category": "Bills",
+      "recipient": "Companhia de Energia"
+    },
+    {
+      "id": "txn-004",
+      "title": "Cashback RecargaPay",
+      "description": "Campanha janeiro",
+      "amount": 12.75,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-12T18:40:00Z",
+      "reference": "CBK-004",
+      "category": "Rewards",
+      "recipient": "RecargaPay"
+    },
+    {
+      "id": "txn-005",
+      "title": "Assinatura streaming",
+      "description": "Plano mensal",
+      "amount": -27.9,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-12T08:10:00Z",
+      "reference": "SUB-005",
+      "category": "Entertainment",
+      "recipient": "Stream Co"
+    },
+    {
+      "id": "txn-006",
+      "title": "Transferencia enviada",
+      "description": "Maria Souza",
+      "amount": -320,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-11T15:25:00Z",
+      "reference": "TRF-006",
+      "category": "Transfer",
+      "recipient": "Maria Souza"
+    },
+    {
+      "id": "txn-007",
+      "title": "Pix recebido",
+      "description": "Carlos Pereira",
+      "amount": 980,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-10T10:45:00Z",
+      "reference": "PIX-007",
+      "category": "Transfer",
+      "recipient": "Carlos Pereira"
+    },
+    {
+      "id": "txn-008",
+      "title": "Compra no mercado",
+      "description": "Supermercado Central",
+      "amount": -248.32,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-09T19:20:00Z",
+      "reference": "MKT-008",
+      "category": "Groceries",
+      "recipient": "Supermercado Central"
+    },
+    {
+      "id": "txn-009",
+      "title": "Estorno de compra",
+      "description": "Marketplace",
+      "amount": 89.9,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-09T08:35:00Z",
+      "reference": "RFD-009",
+      "category": "Refund",
+      "recipient": "Marketplace"
+    },
+    {
+      "id": "txn-010",
+      "title": "Pagamento boleto",
+      "description": "Internet residencial",
+      "amount": -119.99,
+      "type": "debit",
+      "status": "pending",
+      "createdAt": "2025-01-08T13:12:00Z",
+      "reference": "BIL-010",
+      "category": "Bills",
+      "recipient": "Internet Provider"
+    },
+    {
+      "id": "txn-011",
+      "title": "Compra farmacia",
+      "description": "Farmacia Popular",
+      "amount": -64.4,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-07T21:05:00Z",
+      "reference": "MED-011",
+      "category": "Health",
+      "recipient": "Farmacia Popular"
+    },
+    {
+      "id": "txn-012",
+      "title": "Salario",
+      "description": "Empresa Exemplo",
+      "amount": 4200,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-07T07:00:00Z",
+      "reference": "PAY-012",
+      "category": "Income",
+      "recipient": "Empresa Exemplo"
+    },
+    {
+      "id": "txn-013",
+      "title": "Transferencia enviada",
+      "description": "Lucas Costa",
+      "amount": -75,
+      "type": "debit",
+      "status": "failed",
+      "createdAt": "2025-01-06T16:55:00Z",
+      "reference": "TRF-013",
+      "category": "Transfer",
+      "recipient": "Lucas Costa"
+    },
+    {
+      "id": "txn-014",
+      "title": "Recarga transporte",
+      "description": "Bilhete urbano",
+      "amount": -22,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-05T09:50:00Z",
+      "reference": "TRN-014",
+      "category": "Transport",
+      "recipient": "Bilhete Urbano"
+    },
+    {
+      "id": "txn-015",
+      "title": "Pix recebido",
+      "description": "Ana Lima",
+      "amount": 45.5,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-04T17:18:00Z",
+      "reference": "PIX-015",
+      "category": "Transfer",
+      "recipient": "Ana Lima"
+    },
+    {
+      "id": "txn-016",
+      "title": "Restaurante",
+      "description": "Almoco executivo",
+      "amount": -58.7,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-04T12:32:00Z",
+      "reference": "FOD-016",
+      "category": "Food",
+      "recipient": "Bistro Central"
+    },
+    {
+      "id": "txn-017",
+      "title": "Pagamento academia",
+      "description": "Mensalidade",
+      "amount": -99.9,
+      "type": "debit",
+      "status": "completed",
+      "createdAt": "2025-01-03T06:45:00Z",
+      "reference": "FIT-017",
+      "category": "Fitness",
+      "recipient": "Academia Movimento"
+    },
+    {
+      "id": "txn-018",
+      "title": "Rendimento diario",
+      "description": "Saldo remunerado",
+      "amount": 3.12,
+      "type": "credit",
+      "status": "completed",
+      "createdAt": "2025-01-02T23:10:00Z",
+      "reference": "YLD-018",
+      "category": "Income",
+      "recipient": "RecargaPay"
+    }
+  ]
+}
